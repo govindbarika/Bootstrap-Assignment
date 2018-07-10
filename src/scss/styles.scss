@@ -1,0 +1,94 @@
+
+$body-bg :lightgray;
+
+$theme-colors:(
+    "info":#415761,
+    "primary":#6f62e4,
+    "success":#301ce0,
+    "light": #73b8e0,
+    "danger": #90d6a2
+);
+
+
+.jumbotron{
+	background: url(../img/csgalaxyj8.jpg) center center no-repeat;
+}
+
+.jumbotron {
+    p{
+        color: white;
+        text-shadow: 0 0 10px rgba(0,0,0,0.5);
+        font-family: sans-serif;
+    }
+}
+
+.jumbotron {
+    .container{
+        max-width: 40rem;
+        background: rgba(150, 39, 39, 0.2);
+        color: white;
+        font-family: sans-serif;
+    }
+}
+
+.carousel-item{
+    display: flex;
+}
+
+.asideSection1 {
+    background: rgb(221, 216, 148);
+}
+.asideSection2{
+    background: rgb(159, 202, 200);
+}
+
+#mainFooter{
+    background: rgba(42, 44, 44, 0.842);
+}
+
+.socialIcons{
+        line-height: 7rem;
+}
+
+.main-2 {
+    img{
+        width: 100%;
+    }
+}
+
+.footerFirstSection{
+    color: white;
+    font-family: sans-serif;
+}
+
+.carousel-caption{
+    h5{
+        font-family: sans-serif;
+    }
+}
+
+.card-block {
+    .card-title{
+        font-family: sans-serif;
+    }
+}
+
+.card-block {
+    .card-text{
+        font-family: sans-serif;
+    }       
+}
+
+.main-2 {
+    h1{
+        font-family: sans-serif;
+    }
+    p{
+        font-family: sans-serif;
+    }
+}
+
+
+
+
+@import "node_modules/bootstrap/scss/bootstrap";
