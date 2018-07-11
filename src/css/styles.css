@@ -49,6 +49,15 @@
 .main-2 p {
   font-family: sans-serif; }
 
+.cardlist p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 20px;
+  max-height: 80px;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  display: -webkit-box; }
+
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors

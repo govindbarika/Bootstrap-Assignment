@@ -89,6 +89,27 @@ $theme-colors:(
 }
 
 
+@mixin para_height() {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 20px;
+    max-height: 80px;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+ }
+ 
+
+
+
+.cardlist {
+    p{
+        @include para_height;
+    }       
+}
+
+ 
+ 
 
 
 @import "node_modules/bootstrap/scss/bootstrap";
