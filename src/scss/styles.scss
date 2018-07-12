@@ -10,27 +10,6 @@ $theme-colors:(
 );
 
 
-.jumbotron{
-	background: url(../img/csgalaxyj8.jpg) center center no-repeat;
-}
-
-.jumbotron {
-    p{
-        color: white;
-        text-shadow: 0 0 10px rgba(0,0,0,0.5);
-        font-family: sans-serif;
-    }
-}
-
-.jumbotron {
-    .container{
-        max-width: 40rem;
-        background: rgba(150, 39, 39, 0.2);
-        color: white;
-        font-family: sans-serif;
-    }
-}
-
 .carousel-item{
     display: flex;
 }
@@ -96,6 +75,8 @@ $theme-colors:(
         background: rgb(214, 226, 199);
     }
 }
+
+
 
 
 @mixin para_height() {
